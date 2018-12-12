@@ -1,4 +1,4 @@
-<div class="container cards">
+<div class="container cards" id="skills">
     <div class="title">
         <h1>
           Compétences
@@ -6,25 +6,52 @@
         <p class="line text-center"></p>
     </div>
     <div class="row">
-      <div class="col-sm-4">
-        <div class="col-xs col-sm-12 card">
-          <h2 class="card-title text-center">
-            BACK END
-          </h2>
+      <div class="f1_container col-sm-4">
+        <div class="col-xs col-sm-12 card f1_card front face" style="background-image: url('./images/backend.jpg');background-size: cover; background-repeat: no-repeat;background-position: center;">
+            <div class="back face center">
+            <div>
+                <li class="list-unstyled">
+                  <%= image_tag('postgre.png', class: 'logo-picture') %>
+                </li>
+                <li class="list-unstyled">
+                  <%= image_tag('ruby.png', class: 'logo-picture') %>
+                </li>
+                <li class="list-unstyled">
+                  <%= image_tag('rails.png', class: 'logo-picture') %>
+                </li>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="col-sm-4">
-        <div class="col-xs col-sm-12 card">
-          <h2 class="card-title text-center">
-            FRONT END
-          </h2>
+      <div class="f1_container col-sm-4">
+        <div class="col-xs col-sm-12 card f1_card front face" style="background-image: url('./images/frontend.jpg');background-size: cover; background-repeat: no-repeat;background-position: center;">
+          <div class="back face center">
+            <div>
+              <li class="list-unstyled">
+                <%= image_tag('html.png', class: 'logo-picture') %>
+              </li>
+              <li class="list-unstyled">
+                <%= image_tag('css.png', class: 'logo-picture') %>
+              </li>
+              <li class="list-unstyled">
+                <%= image_tag('js.png', class: 'logo-picture') %>
+              </li>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="col-sm-4">
-        <div class="col-xs col-sm-12 card">
-          <h2 class="card-title text-center">
-            FEATURES
-          </h2>
+      <div class="f1_container col-sm-4">
+        <div class="col-xs col-sm-12 card f1_card front face" style="background-image: url('./images/features.png');background-size: cover; background-repeat: no-repeat;background-position: center;">
+          <div class="back face center">
+            <div>
+              <li class="list-unstyled">
+                <%= image_tag('negociation.png', class: 'logo-picture-bis') %>
+              </li>
+              <li class="list-unstyled">
+                <%= image_tag('customers.png', class: 'logo-picture-bis') %>
+              </li>
+            </div>
+          </div>
         </div>
       </div>
     </div>
