@@ -75,7 +75,7 @@
 }
 .face {
   -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+  // backface-visibility: hidden;
 }
 .face.back {
   display: block;
