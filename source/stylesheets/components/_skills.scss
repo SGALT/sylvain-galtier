@@ -70,6 +70,7 @@
   box-shadow: -5px 5px 5px #aaa;
 }
 .face {
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 .face.back {
