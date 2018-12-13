@@ -59,13 +59,17 @@
   z-index: 1;
 }
 .f1_container {
+  -webkit-perspective: 1000;
   perspective: 1000;
 }
 .f1_card {
+  -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
+  -webkit-transition: all 1.0s linear;
   transition: all 1.0s linear;
 }
 .f1_container:hover .f1_card {
+  -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
   box-shadow: -5px 5px 5px #aaa;
 }
@@ -75,6 +79,7 @@
 }
 .face.back {
   display: block;
+  -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
   padding: 10px;
   color: black;
